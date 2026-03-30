@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub Image Hosting Demo</title>
+  <desc id="desc">A demo image used for testing GitHub hosted Markdown images.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="220" cy="170" r="110" fill="#22d3ee" opacity="0.2" />
+  <circle cx="980" cy="500" r="150" fill="#f59e0b" opacity="0.18" />
+  <rect x="80" y="80" width="1040" height="470" rx="28" fill="#ffffff" opacity="0.08" stroke="#ffffff" stroke-opacity="0.18" />
+  <text x="120" y="220" fill="#f8fafc" font-size="64" font-family="Arial, Helvetica, sans-serif" font-weight="700">
+    GitHub Image Hosting Test
+  </text>
+  <text x="120" y="305" fill="#dbeafe" font-size="30" font-family="Arial, Helvetica, sans-serif">
+    Use this file to test GitHub raw URLs, jsDelivr, and optional GitHub Pages.
+  </text>
+  <text x="120" y="405" fill="#bfdbfe" font-size="26" font-family="Courier New, monospace">
+    jsDelivr: cdn.jsdelivr.net/gh/RobertXWL/Code@main/docs/image-host-test/cloud-image-demo.svg
+  </text>
+  <text x="120" y="455" fill="#e0f2fe" font-size="26" font-family="Courier New, monospace">
+    Raw: raw.githubusercontent.com/RobertXWL/Code/main/docs/image-host-test/cloud-image-demo.svg
+  </text>
+  <text x="120" y="535" fill="#fef3c7" font-size="24" font-family="Arial, Helvetica, sans-serif">
+    If you enable GitHub Pages on the docs folder, you can test a Pages URL too.
+  </text>
+</svg>
