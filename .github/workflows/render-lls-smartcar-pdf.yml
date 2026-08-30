@@ -4,7 +4,6 @@ on:
   push:
     paths:
       - "lls-smartcar/智能车培训与竞赛项目方案.html"
-      - "lls-smartcar/assets/**"
   workflow_dispatch:
 
 permissions:
@@ -26,6 +25,12 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install weasyprint
+
+      - name: Prepare reference images
+        run: |
+          mkdir -p "lls-smartcar/assets"
+          curl -L --retry 3 --fail "https://img.yahboom.cn/images/store/PC/K210_shijue/pc%E7%AB%AF_52-min.jpg" -o "lls-smartcar/assets/car_k210.jpg"
+          curl -L --retry 3 --fail "https://www.yahboom.com/public/upload/upload-html/1692864052/26.png" -o "lls-smartcar/assets/track.jpg"
 
       - name: Render PDF
         run: |
